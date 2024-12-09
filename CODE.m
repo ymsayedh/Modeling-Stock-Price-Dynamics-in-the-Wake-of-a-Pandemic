@@ -111,7 +111,7 @@ title('Pandemic Severity Dynamics');
 xlabel('Space');
 ylabel('Time (days)');
 zlabel('Normalized Infection Rate');
-saveas(gcf, 'PandemicSeverityDynamics.png');
+saveas(gcf, 'Pandemic_Severity_Dynamics.png');
 
 % Real vs Predicted Stock Prices
 center_index = round(Nx/2);
